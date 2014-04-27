@@ -14,6 +14,8 @@ $(document).ready(function(){
   style = style.replace(/,\s*$/, "");
   $single.css({
     '-webkit-box-shadow': style,
+    '-moz-box-shadow': style,
+    'box-shadow': style,
   })
   console.log(style);
 
